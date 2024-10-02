@@ -1,0 +1,71 @@
+#heading{
+    color: pink;
+    text-align: center;
+    transform: translate(0,10px);
+}
+.container{
+    background-color: blue;
+    height: 90px;
+    font-size: 30px;
+    transform: translate(-7px,-39px);
+    
+    width: 95.9rem;
+    /* position: fixed; */
+}
+.box{
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    background-color: rgb(33, 214, 231);
+    transform: translate(550px,-50px);
+    bottom: 0px;
+    border: 3px solid red;
+}
+.input{
+    width: 350px;
+    height: 30px;
+    align-content: center;
+    transform: translate(20px);
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: 2px solid red;
+}
+.input::placeholder{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#comment{
+    width: 365px;
+    height: 60px;
+    transform: translate(20px);
+    border: 3px solid red;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#comment::placeholder{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#button{
+    width: 250px;
+    height: 50px;
+    color: red;
+    background-color: yellow;
+   font-size: 30px;
+   border: 3px solid red;
+   transform: translate(70px,10px);
+}
+.gender{
+    font-size: 20px;
+    transform: translate(100px);
+    margin: 5px;
+}
+#res{
+   position: relative;
+   left: 650px;
+   color: red;
+   bottom: 30px;
+}
